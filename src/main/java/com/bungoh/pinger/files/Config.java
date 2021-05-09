@@ -13,4 +13,13 @@ public class Config {
         plugin.saveDefaultConfig();
     }
 
+    public static char getPingPrefix() {
+        String prefix = plugin.getConfig().getString("ping-prefix");
+        if (prefix.length() != 1) {
+            return '@';
+        }
+
+        return prefix.charAt(0);
+    }
+
 }
