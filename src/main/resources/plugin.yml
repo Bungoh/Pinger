@@ -1,0 +1,6 @@
+name: Pinger
+version: ${project.version}
+main: com.bungoh.pinger.Pinger
+api-version: 1.16
+authors: [ Bungoh ]
+description: Ping players in chat!
